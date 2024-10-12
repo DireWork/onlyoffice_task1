@@ -1,6 +1,7 @@
 import main
 import os
 import random
+import pytest
 
 def test_tree():
 
@@ -16,5 +17,3 @@ def test_tree():
 
     expected_lines = 4 + levels
     assert len(lines) == expected_lines
-
-test_tree()
