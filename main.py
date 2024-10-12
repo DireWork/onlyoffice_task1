@@ -7,7 +7,6 @@ def create_tree(levels, file_path):
         # Основная часть ёлки
         for i in range(0, levels):
             count_start = 5
-            line = ''
 
             stars = "*" * (count_start + i * 4)
 
